@@ -22,5 +22,6 @@ public class StudentDAOImplementation implements StudentDAO {
     @Transactional
     public void save(Student theStudent) {
         entityManager.persist(theStudent);
+
     }
 }
